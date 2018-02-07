@@ -50,7 +50,7 @@ public class SimulatedAnnealing extends JFrame{
                 
                 if(bestEnergy > curEnergy){
                     bestEnergy = curEnergy;
-                    System.arraycopy(curState, 0, bestEnergy, 0 ,n);
+                    System.arraycopy(curState, 0, bestState, 0 ,n);
                     repaint();
                 }
             }
